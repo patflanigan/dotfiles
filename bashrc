@@ -1,3 +1,10 @@
+#GOLANG PATH
+export PATH="$PATH:/usr/local/go/bin"
+export GOPATH="$HOME/go"
+
+#custom scripts
+export PATH="$PATH:/root/scripts/bin"
+
 alias os-update="apt-get update && apt-get upgrade -y && apt autoremove -y && apt-get autoclean -y"
 alias ipgrep="grep -oE '(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)'"
 
